@@ -12,6 +12,136 @@
     >
 
     <link rel="stylesheet" href="css/style.css">
+
+<style id="sourcescout-product-home-css">
+.scout-products-section {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 70px 24px;
+}
+
+.scout-products-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.scout-eyebrow {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    color: #6b7280;
+}
+
+.scout-products-heading h2 {
+    margin: 8px 0;
+    font-size: clamp(30px, 4vw, 42px);
+    line-height: 1.1;
+}
+
+.scout-products-heading p {
+    margin: 0;
+    color: #6b7280;
+}
+
+.scout-view-all {
+    white-space: nowrap;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.scout-product-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.scout-product-card {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    transition:
+        transform .18s ease,
+        box-shadow .18s ease;
+}
+
+.scout-product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+
+.scout-product-image {
+    display: block;
+    height: 220px;
+    overflow: hidden;
+    background: #f3f4f6;
+}
+
+.scout-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.scout-product-body {
+    padding: 20px;
+}
+
+.scout-product-body h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    line-height: 1.35;
+}
+
+.scout-product-body h3 a {
+    color: #111827;
+    text-decoration: none;
+}
+
+.scout-product-body p {
+    margin: 0 0 18px;
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.scout-product-link {
+    color: #111827;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.scout-product-link:hover {
+    text-decoration: underline;
+}
+
+.scout-product-body .product-placeholder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .scout-products-section {
+        padding: 50px 16px;
+    }
+
+    .scout-products-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+</style>
+
 </head>
 
 <body>
@@ -507,6 +637,149 @@
     </div>
 
 </footer>
+
+
+<!-- SOURCESCOUT_PRODUCTS_START -->
+<section class="scout-products-section">
+
+    <div class="scout-products-heading">
+        <div>
+            <span class="scout-eyebrow">
+                LATEST RESEARCH
+            </span>
+
+            <h2>Featured Products</h2>
+
+            <p>
+                Explore our latest independently researched
+                product picks.
+            </p>
+        </div>
+
+        <a href="/products.html" class="scout-view-all">
+            View All Products →
+        </a>
+    </div>
+
+    <div class="scout-product-grid">
+        
+                <article class="scout-product-card">
+                    <a href="products/bincooh1pro.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01OTzm5w21pAYBAEHR1_!!6000000007033-0-yinhe.jpg" alt="Bincoo H1Pro Portable Espresso Machine: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/bincooh1pro.html">Bincoo H1Pro Portable Espresso Machine: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>A compact electric espresso maker designed for travel. Here&#x27;s what we found—and what questions remain unanswered.</p>
+
+                        <a href="products/bincooh1pro.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+
+                <article class="scout-product-card">
+                    <a href="products/hero-58mm-portable-espresso-machine:-what-to-know-before-buying.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01Ecu64l1kdrOC5MFme_!!6000000004707-0-yinhe.jpg" alt="Hero 58mm Portable Espresso Machine: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/hero-58mm-portable-espresso-machine:-what-to-know-before-buying.html">Hero 58mm Portable Espresso Machine: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>A compact electric espresso maker targeting outdoor enthusiasts. Here&#x27;s what the zero-order listing reveals about real-world readiness.</p>
+
+                        <a href="products/hero-58mm-portable-espresso-machine:-what-to-know-before-buying.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+
+                <article class="scout-product-card">
+                    <a href="products/portable-espresso-machines-for-travel:-what-to-know-before-buying.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01bc3nEc1GGYlCU4TkD_!!6000000000595-0-yinhe.jpg" alt="Portable Espresso Machines for Travel: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/portable-espresso-machines-for-travel:-what-to-know-before-buying.html">Portable Espresso Machines for Travel: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>Exploring portable espresso options for coffee lovers on the go, including emerging models and established alternatives.</p>
+
+                        <a href="products/portable-espresso-machines-for-travel:-what-to-know-before-buying.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+
+                <article class="scout-product-card">
+                    <a href="products/super58-go50.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01EiMFWN27iCIQgSkbV_!!6000000007830-0-yinhe.jpg" alt="Portable Espresso Machines with Built-in Grinders: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/super58-go50.html">Portable Espresso Machines with Built-in Grinders: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>Exploring compact espresso makers for travel and outdoor use, including what questions to ask before purchasing an unproven model.</p>
+
+                        <a href="products/super58-go50.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+
+                <article class="scout-product-card">
+                    <a href="products/cera-knight-58-portable-espresso-machine:-what-to-know-before-buying.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01gRVNdg1SSifTk13Oy_!!6000000002246-0-yinhe.jpg" alt="CERA Knight 58 Portable Espresso Machine: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/cera-knight-58-portable-espresso-machine:-what-to-know-before-buying.html">CERA Knight 58 Portable Espresso Machine: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>A compact capsule espresso machine positioned for office and home use. Here&#x27;s what we found—and what questions remain.</p>
+
+                        <a href="products/cera-knight-58-portable-espresso-machine:-what-to-know-before-buying.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+
+                <article class="scout-product-card">
+                    <a href="products/ikapekapok2app58mm.html" class="scout-product-image">
+                        <img src="https://img.alicdn.com/bao/uploaded/O1CN01UJabYS1SYfoIURqLb_!!6000000002259-0-yinhe.jpg" alt="IKAPE KapoK2 Portable Espresso Machine: What to Know Before Buying | SourceScout" loading="lazy">
+                    </a>
+
+                    <div class="scout-product-body">
+                        <h3>
+                            <a href="products/ikapekapok2app58mm.html">IKAPE KapoK2 Portable Espresso Machine: What to Know Before Buying | SourceScout</a>
+                        </h3>
+
+                        <p>A compact 58mm espresso maker with heating capability targets coffee enthusiasts and outdoor adventurers, but lacks market validation.</p>
+
+                        <a href="products/ikapekapok2app58mm.html" class="scout-product-link">
+                            Read Research →
+                        </a>
+                    </div>
+                </article>
+                
+    </div>
+
+</section>
+<!-- SOURCESCOUT_PRODUCTS_END -->
 
 </body>
 </html>
